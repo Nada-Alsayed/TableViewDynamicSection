@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049699E02B5061CC00822C85 /* TableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049699DF2B5061CC00822C85 /* TableHeader.xib */; };
+		049699E22B50638100822C85 /* CustomViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049699E12B50638100822C85 /* CustomViewHeader.swift */; };
+		049699E42B50662B00822C85 /* CustomViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049699E32B50662B00822C85 /* CustomViewHeader.xib */; };
+		0496B8AC2B4E969800C3502D /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496B8AB2B4E969800C3502D /* ExtensionViewController.swift */; };
+		0496B8B02B4E97B500C3502D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496B8AE2B4E97B500C3502D /* TableViewCell.swift */; };
+		0496B8B12B4E97B500C3502D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0496B8AF2B4E97B500C3502D /* TableViewCell.xib */; };
+		0496B8B42B4E9BAC00C3502D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496B8B32B4E9BAC00C3502D /* Data.swift */; };
+		0496B8B72B4EA75100C3502D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496B8B62B4EA75100C3502D /* Protocols.swift */; };
 		04FB87E22B4BFFD400EDE4A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB87E12B4BFFD400EDE4A9 /* AppDelegate.swift */; };
 		04FB87E42B4BFFD400EDE4A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB87E32B4BFFD400EDE4A9 /* SceneDelegate.swift */; };
 		04FB87E62B4BFFD400EDE4A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB87E52B4BFFD400EDE4A9 /* ViewController.swift */; };
@@ -17,6 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		049699DF2B5061CC00822C85 /* TableHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableHeader.xib; sourceTree = "<group>"; };
+		049699E12B50638100822C85 /* CustomViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewHeader.swift; sourceTree = "<group>"; };
+		049699E32B50662B00822C85 /* CustomViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewHeader.xib; sourceTree = "<group>"; };
+		0496B8AB2B4E969800C3502D /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		0496B8AE2B4E97B500C3502D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0496B8AF2B4E97B500C3502D /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		0496B8B32B4E9BAC00C3502D /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		0496B8B62B4EA75100C3502D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		04FB87DE2B4BFFD400EDE4A9 /* dynamicTableRows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dynamicTableRows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FB87E12B4BFFD400EDE4A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04FB87E32B4BFFD400EDE4A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +55,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0496B8AD2B4E979800C3502D /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				0496B8AE2B4E97B500C3502D /* TableViewCell.swift */,
+				0496B8AF2B4E97B500C3502D /* TableViewCell.xib */,
+				049699DF2B5061CC00822C85 /* TableHeader.xib */,
+				049699E12B50638100822C85 /* CustomViewHeader.swift */,
+				049699E32B50662B00822C85 /* CustomViewHeader.xib */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		0496B8B22B4E9B9600C3502D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0496B8B32B4E9BAC00C3502D /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0496B8B52B4EA73000C3502D /* Delegats */ = {
+			isa = PBXGroup;
+			children = (
+				0496B8B62B4EA75100C3502D /* Protocols.swift */,
+			);
+			path = Delegats;
+			sourceTree = "<group>";
+		};
 		04FB87D52B4BFFD400EDE4A9 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +102,9 @@
 		04FB87E02B4BFFD400EDE4A9 /* dynamicTableRows */ = {
 			isa = PBXGroup;
 			children = (
+				0496B8B52B4EA73000C3502D /* Delegats */,
+				0496B8B22B4E9B9600C3502D /* Model */,
+				0496B8AD2B4E979800C3502D /* ReusableViews */,
 				04FB87E12B4BFFD400EDE4A9 /* AppDelegate.swift */,
 				04FB87E32B4BFFD400EDE4A9 /* SceneDelegate.swift */,
 				04FB87E52B4BFFD400EDE4A9 /* ViewController.swift */,
@@ -66,6 +113,7 @@
 				04FB87EF2B4BFFD700EDE4A9 /* LaunchScreen.storyboard */,
 				04FB87F22B4BFFD700EDE4A9 /* Info.plist */,
 				04FB87EA2B4BFFD400EDE4A9 /* dynamicTableRows.xcdatamodeld */,
+				0496B8AB2B4E969800C3502D /* ExtensionViewController.swift */,
 			);
 			path = dynamicTableRows;
 			sourceTree = "<group>";
@@ -128,8 +176,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049699E42B50662B00822C85 /* CustomViewHeader.xib in Resources */,
 				04FB87F12B4BFFD700EDE4A9 /* LaunchScreen.storyboard in Resources */,
+				0496B8B12B4E97B500C3502D /* TableViewCell.xib in Resources */,
 				04FB87EE2B4BFFD700EDE4A9 /* Assets.xcassets in Resources */,
+				049699E02B5061CC00822C85 /* TableHeader.xib in Resources */,
 				04FB87E92B4BFFD400EDE4A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,10 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0496B8B42B4E9BAC00C3502D /* Data.swift in Sources */,
 				04FB87E62B4BFFD400EDE4A9 /* ViewController.swift in Sources */,
+				0496B8AC2B4E969800C3502D /* ExtensionViewController.swift in Sources */,
 				04FB87EC2B4BFFD400EDE4A9 /* dynamicTableRows.xcdatamodeld in Sources */,
+				0496B8B02B4E97B500C3502D /* TableViewCell.swift in Sources */,
 				04FB87E22B4BFFD400EDE4A9 /* AppDelegate.swift in Sources */,
 				04FB87E42B4BFFD400EDE4A9 /* SceneDelegate.swift in Sources */,
+				0496B8B72B4EA75100C3502D /* Protocols.swift in Sources */,
+				049699E22B50638100822C85 /* CustomViewHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
